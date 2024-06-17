@@ -37,11 +37,11 @@ INSERT INTO products (product_id, product_name, price, created_at, stock, locati
 (5, 'oneplus', 50000.00, '2024-05-15', 5, 'Chennai');
 
 INSERT INTO customers (customer_id, customer_name, age, email, city) VALUES
-(1, 'Arjun', 28, 'arjun@example.com', 'Mumbai'),
-(2, 'Ajay', 30, 'ajay@example.com', 'Delhi'),
-(3, 'Adithya', 35, 'adithya@example.com', 'Mumbai'),
-(4, 'Shravanth', 40, 'cv@example.com', 'Bangalore'),
-(5, 'Rocky', 30, 'rocky@example.com', 'Mumbai');
+(1, 'Shashank', 27, 'shashank@example.com', 'Mumbai'),
+(2, 'aditya', 33, 'aditya@example.com','Delhi'),
+(3, 'koushik', 30, 'koushik@example.com', 'Mumbai'),
+(4, 'athmanathan', 46, 'athmanathan@example.com', 'Bangalore'),
+(5, 'Rishi', 29, 'rishi@example.com', 'Mumbai');
 
 INSERT INTO orders (order_id, customer_id, order_amount, order_date, payment_mode, status) VALUES
 (1, 1, 15000.00, '2024-01-20', 'credit_card', 'completed'),
