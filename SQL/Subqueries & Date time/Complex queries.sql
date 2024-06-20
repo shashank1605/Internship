@@ -65,7 +65,7 @@ JOIN (
     GROUP BY doctor_id
 ) avg_fees ON d.doctor_id = avg_fees.doctor_id;
 
--- WHERE keyword
+--- WHERE keyword
 SELECT 
     p.name
 FROM patients p
